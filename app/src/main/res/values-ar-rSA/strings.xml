@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">District of Books</string>
+    <string name="user_name" translatable="false">اسم_المستخدم</string>
+</resources>
