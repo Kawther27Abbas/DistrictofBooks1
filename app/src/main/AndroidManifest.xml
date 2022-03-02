@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DistrictOfBooks">
         <activity
+            android:name=".Upload_book_Activity"
+            android:exported="false" />
+        <activity
             android:name=".activityhomepage"
             android:exported="false" />
-
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
