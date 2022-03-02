@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">District of Books</string>
-    <string name="user_name" translatable="false">اسم_المستخدم</string>
+    <string name="app_name">حَيّ الْكُتُبْ</string>
+    <string name="user_name" translatable="false">اسم المستخدم</string>
+    <string name="reading_qute" translatable="false">اقتباسات</string>
+    <string name="don_t_have_an_account" translatable="false">لا تملك حساب؟</string>
+    <string name="login_btn" translatable="false">تسجيل الدخول</string>
+    <string name="password" translatable="false">كلمة السر</string>
+    <string name="forget_your_password" translatable="false">هل نسيت كلمة المرور؟</string>
+    <string name="sign_up_btn" translatable="false">التسجيل</string>
+    <string name="logo" translatable="false">الشعار</string>
+    <string name="back_to_start" translatable="false">العودة الى الصفحة الرئيسة</string>
+    <string name="login_title" translatable="false">تسجيل الدخول</string>
+    <string name="sign_up_logo" translatable="false">التسجيل</string>
+    <string name="logo_name">الشعار</string>
+    <string name="confirn_passworrd">تأكيد كلمة المرور</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="already_have_an_account">لدي حساب</string>
 </resources>

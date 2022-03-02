@@ -10,13 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DistrictOfBooks">
         <activity
+            android:name=".activityhomepage"
+            android:exported="false" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".Start_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
