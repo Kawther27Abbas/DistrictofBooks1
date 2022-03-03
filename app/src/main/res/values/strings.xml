@@ -35,4 +35,29 @@
     <string name="how_to_specify_your_district">How to specify your district?</string>
     <string name="help">Help</string>
     <string name="account">Account</string>
+
+    <string-array name="bookstatus">
+        <item>New</item>
+        <item>Old</item>
+        <item>like new</item>
+    </string-array>
+
+    <string-array name="Genera">
+        <item>Eduction</item>
+        <item>phlosphy</item>
+        <item>Horror</item>
+        <item>novels</item>
+        <item>childern books</item>
+        <item>Entertainment</item>
+    </string-array>
+
+    <string-array name="ServiceType">
+        <item>For Selling</item>
+        <item>For Renting</item>
+        <item>For Borrowing</item>
+        <item>For Donating</item>
+        <item>For Exchanging with book</item>
+    </string-array>
+
 </resources>
+
