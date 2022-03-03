@@ -6,6 +6,7 @@
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/drawable/button_bg.xml" value="0.1" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/drawable/ic_baseline_notifications_active_24.xml" value="0.1025" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/drawable/input_bg.xml" value="0.2075" />
+        <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/drawable/text_background.xml" value="0.1485" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1285140562248996" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout-w936dp/activity_login.xml" value="0.15" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_activityhomepage.xml" value="0.22" />
@@ -13,8 +14,8 @@
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_homepage.xml" value="0.2" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_settings.xml" value="0.15185856754306437" />
-        <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_settings.xml" value="0.1" />
+        <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_signup.xml" value="0.25" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_start.xml" value="0.22" />
         <entry key="..\:/Users/jkjkj/AndroidStudioProjects/DistrictofBooks/app/src/main/res/layout/activity_upload_book.xml" value="0.22" />

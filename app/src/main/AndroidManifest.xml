@@ -13,16 +13,10 @@
             android:name=".Reset"
             android:exported="false" />
         <activity
-            android:name=".Settings"
-            android:exported="false" />
-        <activity
             android:name=".Upload_book_Activity"
             android:exported="false" />
         <activity
             android:name=".activityhomepage"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
