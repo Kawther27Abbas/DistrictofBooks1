@@ -12,7 +12,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        //backing to start page
+        //backing to start page Button
         val backToStart: FloatingActionButton = findViewById<FloatingActionButton>(R.id.backToStartFromLogin)
         backToStart.setOnClickListener {
 
@@ -24,14 +24,14 @@ class LoginActivity : AppCompatActivity() {
         val loginToHome: Button = findViewById<Button>(R.id.signinBtnL)
         loginToHome.setOnClickListener {
 
-            val intentLogin = Intent(this, activityhomepage::class.java)
+            val intentLogin = Intent(this, testActivity::class.java)
             startActivity(intentLogin)
         }
 
         //the rest password
         val resetPassword :TextView = findViewById<TextView>(R.id.Forget_password)
         resetPassword.setOnClickListener{
-            val intentResetPass = Intent(this, Reset::class.java)
+            val intentResetPass = Intent(this, ResetPassword::class.java)
             startActivity(intentResetPass)
         }
 
