@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.districtofbooks">
+    package="com.graduationProject.districtofbooks">
     <!-- the app premissions -->
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,37 +14,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DistrictOfBooks">
         <activity
-            android:name=".ResetPassword"
+            android:name="com.graduationProject.districtofbooks.ResetPassword"
             android:exported="false" />
         <activity
-            android:name=".FavoritePage"
+            android:name="com.graduationProject.districtofbooks.FavoritePage"
             android:exported="false" />
         <activity
-            android:name=".Search"
+            android:name="com.graduationProject.districtofbooks.Search"
             android:exported="false" />
         <activity
-            android:name=".Profile"
+            android:name="com.graduationProject.districtofbooks.Profile"
             android:exported="false" />
         <activity
-            android:name=".testActivity"
+            android:name="com.graduationProject.districtofbooks.testActivity"
             android:exported="false" />
         <activity
-            android:name=".Editprofile"
+            android:name="com.graduationProject.districtofbooks.Editprofile"
             android:exported="false" />
         <activity
-            android:name=".Upload_book_Activity"
+            android:name="com.graduationProject.districtofbooks.Upload_book_Activity"
             android:exported="false" />
         <activity
-            android:name=".activityhomepage"
+            android:name="com.graduationProject.districtofbooks.activityhomepage"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.graduationProject.districtofbooks.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.graduationProject.districtofbooks.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".StartActivity"
+            android:name="com.graduationProject.districtofbooks.StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

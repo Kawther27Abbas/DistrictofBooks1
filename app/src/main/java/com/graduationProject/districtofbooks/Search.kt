@@ -1,11 +1,12 @@
-package com.example.districtofbooks
+package com.graduationProject.districtofbooks
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Profile : AppCompatActivity() {
+class Search : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile)
+        setContentView(R.layout.activity_search)
     }
+
 }

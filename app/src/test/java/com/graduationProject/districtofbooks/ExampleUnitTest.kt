@@ -1,4 +1,4 @@
-package com.example.districtofbooks
+package com.graduationProject.districtofbooks
 
 import org.junit.Test
 

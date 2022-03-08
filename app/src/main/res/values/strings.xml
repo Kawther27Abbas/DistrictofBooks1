@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">District of Books</string>
     <string name="user_name">Username</string>
-    <string name="login_btn">Sign In</string>
+    <string name="login_btn">Login</string>
     <string name="password">Password</string>
     <string name="forget_your_password">Forget Your Password?</string>
     <string name="reading_qute">Reading Qute</string>
@@ -45,7 +45,12 @@
     <string name="notification">Notification</string>
     <string name="reset_password_title">Reset Password</string>
     <string name="forget_your_password_re_set_it_by_one">Forget your Password? Re-set it by one:</string>
+    <string name="or_sign_in_with_google">or, Sign In with Google</string>
 
+    <!-- sign up Activty.kt string -->
+    <string name="errMsgIncorrectEmail">Enter Correct Password</string>
+
+<!-- Spiners Strings -->
     <string-array name="bookstatus">
         <item>New</item>
         <item>Old</item>
@@ -54,10 +59,10 @@
 
     <string-array name="Genera">
         <item>Eduction</item>
-        <item>phlosphy</item>
+        <item>philosophy</item>
         <item>Horror</item>
         <item>novels</item>
-        <item>childern books</item>
+        <item>children books</item>
         <item>Entertainment</item>
     </string-array>
 
@@ -67,6 +72,14 @@
         <item>For Borrowing</item>
         <item>For Donating</item>
         <item>For Exchanging with book</item>
+    </string-array>
+
+    <string-array name="Districts">
+        <item>Al Moqable</item>
+        <item>Al Shrofyah</item>
+        <item>Ain Najim</item>
+        <item>Al Syasb</item>
+        <item>Al Eayouny</item>
     </string-array>
 
 </resources>

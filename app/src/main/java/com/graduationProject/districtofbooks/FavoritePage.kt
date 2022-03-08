@@ -1,11 +1,11 @@
-package com.example.districtofbooks
+package com.graduationProject.districtofbooks
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class ResetPassword : AppCompatActivity() {
+class FavoritePage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_reset_password)
+        setContentView(R.layout.activity_favorite_page)
     }
 }

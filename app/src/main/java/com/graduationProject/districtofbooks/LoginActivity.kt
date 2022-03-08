@@ -1,4 +1,4 @@
-package com.example.districtofbooks
+package com.graduationProject.districtofbooks
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,24 +14,20 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         //backing to start page Button
-        val backToStart: FloatingActionButton = findViewById<FloatingActionButton>(R.id.backToStartFromLogin)
-        backToStart.setOnClickListener {
+        backToStartFromLogin.setOnClickListener {
 
             val intentback = Intent(this, StartActivity::class.java)
             startActivity(intentback)
         }
 
-        //The sign in/login process
-        val loginToHome: Button = findViewById<Button>(R.id.signinBtnL)
-        loginToHome.setOnClickListener {
-
+        //The login process
+        signinBtnL.setOnClickListener {
             val intentLogin = Intent(this, testActivity::class.java)
             startActivity(intentLogin)
         }
 
         //the rest password
-        val resetPassword :TextView = findViewById<TextView>(R.id.Forget_password)
-        resetPassword.setOnClickListener{
+        Forget_password.setOnClickListener{
             val intentResetPass = Intent(this, ResetPassword::class.java)
             startActivity(intentResetPass)
         }

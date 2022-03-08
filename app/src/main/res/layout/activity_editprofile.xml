@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/med_threecolo"
-    tools:context=".Editprofile" >
+    android:background="@color/Honeydew"
+    tools:context=".Editprofile">
 
     <TextView
         android:id="@+id/changeDistrictLable"
@@ -43,17 +43,17 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toEndOf="@+id/backToProfile"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048" />
+        app:layout_constraintVertical_bias="0.043" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/backToProfile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
         android:background="@color/Honeydew"
         android:clickable="true"
         android:contentDescription="@string/back_to_start"
@@ -105,14 +105,14 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="@string/bio"
+        android:importantForAutofill="no"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="@+id/avatar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.073"
         app:layout_constraintStart_toEndOf="@+id/avatar"
         app:layout_constraintTop_toTopOf="@+id/avatar"
-        app:layout_constraintVertical_bias="0.0"
-        android:importantForAutofill="no" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/changePasswordEditProfile"
@@ -161,6 +161,7 @@
         android:layout_width="189dp"
         android:layout_height="48dp"
         android:layout_marginEnd="5dp"
+        android:entries="@array/Districts"
         app:layout_constraintBottom_toBottomOf="@+id/changeDistrictLable"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.644"

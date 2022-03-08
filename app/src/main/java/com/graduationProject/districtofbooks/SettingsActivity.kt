@@ -1,4 +1,4 @@
-package com.example.districtofbooks
+package com.graduationProject.districtofbooks
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

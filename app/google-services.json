@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "856946375929",
+    "project_id": "district-of-books",
+    "storage_bucket": "district-of-books.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856946375929:android:44822e8b0171de2a397628",
+        "android_client_info": {
+          "package_name": "com.graduationProject.districtofbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856946375929-b6bfhs69tog4j5d841rnjthfe95mf2do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi0x0diB7sWJJ8AaH_arZM_6u-Xt8HI-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856946375929-b6bfhs69tog4j5d841rnjthfe95mf2do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

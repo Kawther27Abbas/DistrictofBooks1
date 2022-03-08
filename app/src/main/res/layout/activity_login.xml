@@ -4,9 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/med_threecolo"
+    android:background="@color/Honeydew"
     tools:context=".LoginActivity">
 
+
+    <ImageView
+        android:id="@+id/signUpWithGoogle2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtnL"
+        app:layout_constraintVertical_bias="0.211"
+        app:srcCompat="@drawable/googleg_standard_color_18"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/signInWithGoogle_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/or_sign_in_with_google"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/signUpWithGoogle2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toEndOf="@+id/signUpWithGoogle2"
+        app:layout_constraintTop_toTopOf="@+id/signUpWithGoogle2"
+        app:layout_constraintVertical_bias="0.545" />
 
     <ImageView
         android:id="@+id/appLogo"
@@ -41,8 +69,8 @@
         android:paddingTop="10dp"
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/Honeydew"
-        android:textColorHint="@color/Honeydew"
+        android:textColor="@color/black"
+        android:textColorHint="@color/PruassianBlue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,8 +93,8 @@
         android:paddingTop="10dp"
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/Honeydew"
-        android:textColorHint="@color/Honeydew"
+        android:textColor="@color/black"
+        android:textColorHint="@color/PruassianBlue"
         app:layout_constraintEnd_toEndOf="@+id/inputLogin"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/inputLogin"

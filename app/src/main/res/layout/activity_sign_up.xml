@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Honeydew"
     android:fadingEdge="horizontal|vertical|none"
-    android:background="@drawable/med_threecolo"
     tools:context=".SignUpActivity">
 
     <!---->
@@ -58,6 +58,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:autofillHints=""
         android:background="@drawable/input_bg"
         android:drawableStart="@drawable/ic_baseline_smartphone_24"
         android:drawablePadding="10dp"
@@ -69,19 +70,19 @@
         android:paddingTop="10dp"
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/Honeydew"
-        android:textColorHint="@color/Honeydew"
+        android:textColor="@color/PruassianBlue"
+        android:textColorHint="@color/PruassianBlue"
         app:layout_constraintEnd_toEndOf="@+id/confirmPassword"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/confirmPassword"
-        app:layout_constraintTop_toBottomOf="@+id/confirmPassword"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/confirmPassword" />
 
     <EditText
         android:id="@+id/inputEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:autofillHints=""
         android:background="@drawable/input_bg"
         android:drawableStart="@drawable/ic_baseline_email_24"
         android:drawablePadding="10dp"
@@ -93,19 +94,19 @@
         android:paddingTop="10dp"
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/Honeydew"
-        android:textColorHint="@color/Honeydew"
+        android:textColor="@color/PruassianBlue"
+        android:textColorHint="@color/PruassianBlue"
         app:layout_constraintEnd_toEndOf="@+id/PhoneNum"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/PhoneNum"
-        app:layout_constraintTop_toBottomOf="@+id/PhoneNum"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/PhoneNum" />
 
     <EditText
         android:id="@+id/inputDOB"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:autofillHints=""
         android:background="@drawable/input_bg"
         android:drawableStart="@drawable/ic_baseline_calendar_month_24"
         android:drawablePadding="10dp"
@@ -117,16 +118,15 @@
         android:paddingTop="10dp"
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
-        android:textColor="@color/Honeydew"
-        android:textColorHint="@color/Honeydew"
+        android:textColor="@color/PruassianBlue"
+        android:textColorHint="@color/PruassianBlue"
         app:layout_constraintEnd_toEndOf="@+id/inputEmail"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/inputEmail"
-        app:layout_constraintTop_toBottomOf="@+id/inputEmail"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
 
     <EditText
-        android:id="@+id/passwordInputS"
+        android:id="@+id/inputPassword"
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
@@ -169,22 +169,24 @@
         android:paddingBottom="10dp"
         android:textColor="@color/Honeydew"
         android:textColorHint="@color/PruassianBlue"
-        app:layout_constraintEnd_toEndOf="@+id/passwordInputS"
+        app:layout_constraintEnd_toEndOf="@+id/inputPassword"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/passwordInputS"
-        app:layout_constraintTop_toBottomOf="@+id/passwordInputS" />
+        app:layout_constraintStart_toStartOf="@+id/inputPassword"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
 
     <Button
-        android:id="@+id/signUpBtnS"
+        android:id="@+id/signUpButtonRegister"
         android:layout_width="280dp"
         android:layout_height="55dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/button_bg"
         android:text="@string/sign_up_btn"
-        app:layout_constraintEnd_toEndOf="@+id/inputDOB"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/inputDOB"
-        app:layout_constraintTop_toBottomOf="@+id/inputDOB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpWithGoogle"
         tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
 
     <TextView
@@ -192,15 +194,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/already_have_an_account"
-        android:textColor="@color/Honeydew"
+        android:textColor="@color/PruassianBlue"
         android:textColorHighlight="@color/CeladonBlue"
         android:textColorHint="@color/CeladonBlue"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/signUpBtnS"
-        app:layout_constraintStart_toStartOf="@+id/signUpBtnS"
-        app:layout_constraintTop_toBottomOf="@+id/signUpBtnS" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/signUpButtonRegister"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/signUpButtonRegister"
+        app:layout_constraintTop_toBottomOf="@+id/signUpButtonRegister"
+        app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/backStartFromSignup"
@@ -222,5 +228,34 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="?attr/homeAsUpIndicator"
         tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/signUpWithGoogle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:iconTint="#6FFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputDOB"
+        app:srcCompat="@drawable/googleg_standard_color_18" />
+
+    <TextView
+        android:id="@+id/signInWithGoogle_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/or_sign_in_with_google"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/signUpButtonRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/signUpWithGoogle"
+        app:layout_constraintTop_toBottomOf="@+id/inputDOB"
+        app:layout_constraintVertical_bias="0.526" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
