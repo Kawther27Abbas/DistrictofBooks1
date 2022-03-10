@@ -12,7 +12,6 @@
     <string name="back_to_start" translatable="false">العودة الى الصفحة الرئيسة</string>
     <string name="login_title" translatable="false">تسجيل الدخول</string>
     <string name="sign_up_logo" translatable="false">التسجيل</string>
-    <string name="logo_name">الشعار</string>
     <string name="confirn_passworrd">تأكيد كلمة المرور</string>
     <string name="phone_number">رقم الجوال</string>
     <string name="email">البريد الإلكتروني</string>

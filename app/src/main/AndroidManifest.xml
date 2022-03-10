@@ -14,37 +14,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DistrictOfBooks">
         <activity
-            android:name="com.graduationProject.districtofbooks.ResetPassword"
+            android:name=".SnackBarActivity"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.FavoritePage"
+            android:name=".HomePageActivity"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.Search"
+            android:name=".ResetPassword"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.Profile"
+            android:name=".FavoritePage"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.testActivity"
+            android:name=".Search"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.Editprofile"
+            android:name=".Profile"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.Upload_book_Activity"
+            android:name=".testActivity"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.activityhomepage"
+            android:name=".Editprofile"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.LoginActivity"
+            android:name=".Upload_book_Activity"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.SignUpActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.graduationProject.districtofbooks.StartActivity"
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

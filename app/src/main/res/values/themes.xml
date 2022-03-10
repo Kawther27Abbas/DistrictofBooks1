@@ -1,25 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.DistrictOfBooks" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Background color. -->
+        <!--<item name="android:background">#DED7E1</item>-->
+        <!-- Text and hint color. -->
+        <item name="android:textColor">@color/oxfordBlue</item>
+        <item name="android:textColorPrimary">@color/shadowBlue</item>
+        <item name="android:textColorHint">@color/Wine</item>
+        <!-- Drawable Icons and Buttons color. -->
+        <item name="android:colorBackgroundFloating" tools:targetApi="m">#28315E</item>
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/MaizeCrayola</item>
-        <item name="colorPrimaryVariant">@color/CeladonBlue</item>
-        <item name="colorOnPrimary">@color/PruassianBlue</item>
+        <item name="colorPrimary">@color/shadowBlue</item>
+        <item name="colorPrimaryVariant">@color/oxfordBlue</item>
+        <item name="colorOnPrimary">@color/oxfordBlue</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/PruassianBlue</item>
-        <item name="colorSecondaryVariant">@color/SpanishGray</item>
-        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondary">@color/shadowBlue</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.DistrictOfBooks.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.DistrictOfBooks.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.DistrictOfBooks.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

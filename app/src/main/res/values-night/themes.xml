@@ -2,12 +2,12 @@
     <!-- Base application theme. -->
     <style name="Theme.DistrictOfBooks" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/Ecru</item>
-        <item name="colorPrimaryVariant">@color/CeladonBlue</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/DarkLiver</item>
+        <item name="colorPrimaryVariant">@color/oxfordBlue</item>
+        <item name="colorOnPrimary">@color/DarkLiver</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/PruassianBlue</item>
-        <item name="colorSecondaryVariant">@color/SpanishGray</item>
+        <item name="colorSecondary">@color/oxfordBlue</item>
+        <item name="colorSecondaryVariant">@color/DarkLiver</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>

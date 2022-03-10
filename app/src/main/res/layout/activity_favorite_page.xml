@@ -4,18 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/med_threecolo"
     tools:context=".FavoritePage">
-
-    <Button
-        android:id="@+id/backbuttonFavoritepage"
-        android:layout_width="42dp"
-        android:layout_height="42dp"
-        app:icon="@drawable/ic_baseline_arrow_back_24"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/FavoriteBooks"
@@ -32,8 +21,14 @@
     <TableLayout
         android:layout_width="391dp"
         android:layout_height="700dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="84dp">
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FavoriteBooks">
 
         <TableRow
             android:layout_width="match_parent"

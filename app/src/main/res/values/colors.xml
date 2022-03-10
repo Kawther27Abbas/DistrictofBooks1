@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="MaizeCrayola">#f5cb5c</color>
-    <color name="Honeydew">#f1faee</color>
-    <color name="MorningBlue">#91a092</color>
-    <color name="CeladonBlue">#457b9d</color>
-    <color name="PruassianBlue">#1d3557</color>
-    <color name="SpanishGray">#979b97</color>
-    <color name="Ecru">#d5bd7b</color>
+    <color name="oxfordBlue">#0E122F</color>
+    <color name="shadowBlue">#7894B8</color>
+    <color name="AndroidGreen">#A7C133</color>
+    <color name="DarkLiver">#604E57</color>
+    <color name="Wine">#6A2C34</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="snackBarSuccessrMsg">#689F38</color>
+    <color name="snackBarErrorMsg">#C13333</color>
 </resources>
